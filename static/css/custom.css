@@ -48,9 +48,8 @@ body {
     font-feature-settings: normal;
     font-variant-ligatures: contextual common-ligatures;
     background-color: var(--tw-bg);
-    /* BDO Grotesk */
+    /* Lighter text rendering for BDO Grotesk */
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 /* Horizontally centering fixed-width block used together with .mx-auto */
@@ -421,10 +420,9 @@ dl {
     font-weight: 450;
     font-feature-settings: "calt", "liga", "cv02", "cv11", "zero";
     background-color: var(--tw-bg);
-    /* Reset for BDO Grotesk */
-    letter-spacing: 0;
+    /* Reset because we set them globally for BDO Grotesk */
     -webkit-font-smoothing: auto;
-    -moz-osx-font-smoothing: auto;
+    letter-spacing: 0;
 }
 
 .content .markdown code {
