@@ -12,7 +12,7 @@
 
     {{/* Open Graph Protocol - Used by Facebook, LinkedIn, and others */}}
     <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}" />
-    <meta property="og:locale" content="{{ if .Site.LanguageCode }}{{ replace .Site.LanguageCode "-" "_" }}{{ else }}en_US{{ end }}" />
+    <meta property="og:locale" content="en_US" />
     <meta property="og:site_name" content="{{ .Site.Title }}" />
     <meta property="og:url" content="{{ .Permalink }}" />
     <meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}" />
